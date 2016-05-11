@@ -1,0 +1,49 @@
+  final_aroussie.BuyingForm.resources - Embedded, ContainedInManifestFile, 
+  final_aroussie.BuyingReceipt.resources - Embedded, ContainedInManifestFile, 
+  final_aroussie.Home.resources - Embedded, ContainedInManifestFile, 
+  final_aroussie.MyForm.resources - Embedded, ContainedInManifestFile, 
+  final_aroussie.SellingForm.resources - Embedded, ContainedInManifestFile, 
+  final_aroussie.SellingReceipt.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly final_aroussie, Version=0.0.*, Culture=Langue indifférente (Pays indifférent): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class final_aroussie.BuyingReceipt: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setNbShares(Int32): PrivateScope, Public, HideBySig
+    setStock(String): PrivateScope, Public, HideBySig
+    setPrice(Single): PrivateScope, Public, HideBySig
+    setDate(String): PrivateScope, Public, HideBySig
+Class final_aroussie.BuyingForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class final_aroussie.SellingReceipt: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setNbShares(Int32): PrivateScope, Public, HideBySig
+    setStock(String): PrivateScope, Public, HideBySig
+    setPrice(Single): PrivateScope, Public, HideBySig
+    setDate(String): PrivateScope, Public, HideBySig
+Class final_aroussie.SellingForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class final_aroussie.Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class final_aroussie.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

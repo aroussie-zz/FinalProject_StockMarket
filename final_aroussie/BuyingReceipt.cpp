@@ -1,0 +1,2 @@
+#include "BuyingReceipt.h"
+
